@@ -1,0 +1,13 @@
+{
+  "name": "Java Dev Container",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/java:1": {
+      "version": "25",
+      "installMaven": "false",
+      "installGradle": "false"
+    }
+  }
+}
