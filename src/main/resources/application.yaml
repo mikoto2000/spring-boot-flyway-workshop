@@ -1,3 +1,10 @@
 spring:
   application:
     name: flyway
+
+  datasource:
+    url: ${DATASOURCE_URL:jdbc:h2:file:./target/workshopdb}
+    username: ${DATASOURCE_USERNAME:sa}
+    password: ${DATASOURCE_PASSWORD:}
+    driver-class-name: org.h2.Driver
+
